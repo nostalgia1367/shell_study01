@@ -26,10 +26,10 @@ stty echo  #(3)
 echo
 
 #(4)
-#wget -q --password=$password ftp://${username}@${hostname}/web/index2.html
+wget -q --password=$password ftp://${username}@${hostname}/web/index2.html
 
 # 아래처럼 -r 이용하여 전체디렉토리 다운로드와 -P 옵션을 이용하여 원하는 경로에 다운로드 가능
-wget -q -r   --password=$password ftp://${username}@${hostname}/web/web_images -P /Users/nostalgia/Downloads
+#wget -q -r   --password=$password ftp://${username}@${hostname}/web/web_images -P /Users/nostalgia/Downloads
 
 
 # wget -옵션
@@ -41,6 +41,6 @@ wget -q -r   --password=$password ftp://${username}@${hostname}/web/web_images -
 # -P : 원하는 위치에 
 # -O : 다운로드 URL에 파라미터 형태일 때 정상적으로 파일 받는 방법
 
-http://www.incodom.kr/Linux/%EA%B8%B0%EB%B3%B8%EB%AA%85%EB%A0%B9%EC%96%B4/wget
+#http://www.incodom.kr/Linux/%EA%B8%B0%EB%B3%B8%EB%AA%85%EB%A0%B9%EC%96%B4/wget
 
 # tail -f wget-log

@@ -3,7 +3,6 @@
 count=0
 trap ' echo
        echo "Try count: $count"
-       trap ' date
        exit ' INT   #(1)
 
 while :
